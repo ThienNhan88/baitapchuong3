@@ -1,41 +1,12 @@
-# LibraryMS v0.1
+## Kiểm thử
 
-## 1. Giới thiệu
+Các URL và lệnh CURL đã sử dụng để kiểm thử ứng dụng:
 
-LibraryMS v0.1 là ứng dụng quản lý thư viện đơn giản được xây dựng bằng Flask.
+### 1. Trang chủ
 
-Ứng dụng hỗ trợ:
+URL:
+http://127.0.0.1:5000/
 
-- Hiển thị tổng số đầu sách.
-- Hiển thị số sách sẵn sàng cho mượn.
-- Hiển thị danh sách sách.
-- Lọc sách theo thể loại.
-- Xem chi tiết sách.
-- API lấy danh sách sách.
-- API lấy thông tin một sách theo ID.
-- Xử lý lỗi 404.
-- Escape dữ liệu khi hiển thị trên HTML.
-
----
-
-## 2. Công nghệ sử dụng
-
-- Python 3
-- Flask
-- MarkupSafe
-- HTML
-- Jinja2
-- JSON
-- REST API
-
----
-
-## 3. Cấu trúc project
-
-```text
-CHUONG3/
-│
-├── app.py
-├── README.md
-├── .gitignore
-└── .venv/
+CURL:
+```bash
+curl http://127.0.0.1:5000/
